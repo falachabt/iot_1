@@ -4,7 +4,7 @@ from opcua import Client
 
 try:
     # Create client instance
-    url = "opc.tcp://10.238.43.215:4840"  # 's IP address
+    url = "opc.tcp://192.168.1.45:4840"  # 's IP address
     client = Client(url)
 
     # Connect to server

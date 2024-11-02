@@ -31,7 +31,7 @@ def write_values(temperature_node, pressure_node, timestamp_node):
 
 try:
     # Create client instance
-    url = "opc.tcp://10.238.40.223:4840"
+    url = "opc.tcp://192.168.1.45:4840"
     client = Client(url)
 
     # Connect to server

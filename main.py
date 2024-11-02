@@ -11,7 +11,7 @@ server.set_endpoint(url)
 
 print("every thing oky here ")
 
-name = "OPCUA_RPI_SERVER_GroupeX"  # Enter your group number here
+name = "OPCUA_RPI_TENEZEU"  # Enter your group number here
 addspace = server.register_namespace(name)
 node = server.get_objects_node()
 
